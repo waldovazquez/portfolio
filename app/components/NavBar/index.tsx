@@ -114,6 +114,7 @@ const NavBar = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                 >
+                  <span className='sr-only'>Perfil de LinkedIn</span>
                   <SiLinkedin size={24} className='text-dark' />
                 </a>
               </li>
@@ -123,6 +124,7 @@ const NavBar = () => {
                   rel='noopener noreferrer'
                   target='_blank'
                 >
+                  <span className='sr-only'>Perfil de GitHub</span>
                   <SiGithub size={24} className='text-dark' />
                 </a>
               </li>
