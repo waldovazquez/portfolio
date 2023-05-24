@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
-import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
+import type { Metadata } from 'next'
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import './globals.css'
@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   authors: { name: 'Waldo Vazquez', url: 'https://www.linkedin.com/in/waldo-vazquez/' },
   colorScheme: 'dark',
-  description: 'Portfolio creado por Waldo Vazquez',
+  description: 'Soy un Full Stack Developer especializado en React, React Native, Node.js, JavaScript, TypeScript, Next.js y Tailwind CSS. Explora mi portfolio para ver mis proyectos y habilidades.',
   icons: {
     icon: '/favicon.ico'
   },

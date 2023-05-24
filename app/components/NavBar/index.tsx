@@ -53,7 +53,7 @@ const NavBar = () => {
             <li className='hover:-translate-y-1 transition-transform'>
               <a
                 href='https://www.linkedin.com/in/waldo-vazquez/'
-                rel='noopener'
+                rel='noopener noreferrer'
                 target='_blank'
               >
                 <SiLinkedin size={24} className='hover:text-primary text-light' />
@@ -62,7 +62,7 @@ const NavBar = () => {
             <li className='hover:-translate-y-1 transition-transform'>
               <a
                 href='https://github.com/waldovazquez'
-                rel='noopener'
+                rel='noopener noreferrer'
                 target='_blank'
               >
                 <SiGithub size={24} className='hover:text-primary text-light' />
