@@ -33,7 +33,7 @@ const Details = ({
           width='50'
         >
           <circle
-            className='stroke-primary dark:stroke-primaryDark stroke-1 fill-none'
+            className='stroke-primary stroke-1 fill-none'
             cx='75'
             cy='50'
             r='20'
@@ -48,7 +48,7 @@ const Details = ({
             }}
           />
           <circle
-            className='stroke-1 fill-primary dark:fill-primaryDark animate-pulse'
+            className='stroke-1 fill-primary animate-pulse'
             cx='75'
             cy='50'
             r='10'

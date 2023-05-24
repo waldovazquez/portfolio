@@ -2,7 +2,7 @@ import { BiLinkExternal } from 'react-icons/bi'
 
 const Home = () => {
   return (
-    <main className='w-full min-h-screen flex items-center p-4 bg-dark md:px-16 lg:px-32 md:py-16 lg:py-32'>
+    <main className='w-full min-h-screen flex items-center bg-dark px-8 py-8 md:px-16 md:py-16 lg:px-32 lg:py-32'>
       <section className='w-full flex flex-col items-center' id='Home'>
         <h1 className='text-2xl font-bold text-light text-center md:text-4xl'>
           Hola &#128075;, Mi nombre es&nbsp;

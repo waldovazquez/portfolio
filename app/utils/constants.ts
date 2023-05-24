@@ -1,4 +1,5 @@
 import {
+  Project,
   Timeline
 } from '../interfaces/utils'
 
@@ -82,7 +83,7 @@ export const educations: Timeline[] = [{
   title: 'Middle Level'
 }]
 
-export const projects = [
+export const projects: Project[] = [
   {
     description: `
       El objetivo principal de este proyecto fue aprender y aplicar los conceptos fundamentales de React al crear una aplicación web funcional y atractiva.
@@ -91,7 +92,7 @@ export const projects = [
     `,
     github: 'https://github.com/waldovazquez/pokemon-frontend',
     image: PokemonPicture,
-    name: 'Pokemon',
+    name: 'Pokémon',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express.js']
   },
   {
