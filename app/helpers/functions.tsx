@@ -18,6 +18,7 @@ import {
 type IconName = 'CSS' | 'Express' | 'Git' | 'HTML' | 'JavaScript' | 'MongoDB' | 'Next' | 'Node' | 'React' | 'Redux' | 'Tailwind' | 'TypeScript';
 
 type IconMap = {
+  // eslint-disable-next-line no-unused-vars
   [key in IconName]: IconType;
 };
 

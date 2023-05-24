@@ -20,7 +20,7 @@ const ProjectCard = ({
         >
           <Image
             alt={name}
-            className='w-full rounded-3xl hover:shadow-lg hover:shadow-primary hover:opacity-50 hidden md:flex md:h-full'
+            className='w-full object-cover rounded-3xl hover:shadow-lg hover:shadow-primary hover:opacity-50 hidden md:flex md:h-full'
             priority
             src={image}
           />
