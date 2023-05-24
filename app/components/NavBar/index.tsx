@@ -57,14 +57,6 @@ const NavBar = () => {
           <ul className='flex items-center flex-wrap gap-4'>
             <li className='hover:-translate-y-1 transition-transform'>
               <a
-                className='sr-only'
-                href='https://www.linkedin.com/in/waldo-vazquez'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                LinkedIn
-              </a>
-              <a
                 href='https://www.linkedin.com/in/waldo-vazquez'
                 rel='noopener noreferrer'
                 target='_blank'
@@ -73,14 +65,6 @@ const NavBar = () => {
               </a>
             </li>
             <li className='hover:-translate-y-1 transition-transform'>
-              <a
-                className='sr-only'
-                href='https://github.com/waldovazquez'
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                GitHub
-              </a>
               <a
                 href='https://github.com/waldovazquez'
                 rel='noopener noreferrer'
