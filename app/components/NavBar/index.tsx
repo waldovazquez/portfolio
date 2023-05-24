@@ -24,7 +24,12 @@ const NavBar = () => {
 
   return (
     <header className='p-8 bg-dark relative lg:px-32 lg:py-8'>
-      <button aria-expanded={isOpen} className='lg:hidden' onClick={handleClick}>
+      <button
+        aria-expanded={isOpen}
+        aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
+        className='lg:hidden'
+        onClick={handleClick}
+      >
         {isOpen ? <AiOutlineClose size={24} className='text-light' /> : <AiOutlineMenu size={24} className='text-light' />}
       </button>
       <div className='hidden lg:w-full lg:flex lg:justify-between lg:items-center'>
@@ -52,7 +57,15 @@ const NavBar = () => {
           <ul className='flex items-center flex-wrap gap-4'>
             <li className='hover:-translate-y-1 transition-transform'>
               <a
-                href='https://www.linkedin.com/in/waldo-vazquez/'
+                className='sr-only'
+                href='https://www.linkedin.com/in/waldo-vazquez'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                LinkedIn
+              </a>
+              <a
+                href='https://www.linkedin.com/in/waldo-vazquez'
                 rel='noopener noreferrer'
                 target='_blank'
               >
@@ -60,6 +73,14 @@ const NavBar = () => {
               </a>
             </li>
             <li className='hover:-translate-y-1 transition-transform'>
+              <a
+                className='sr-only'
+                href='https://github.com/waldovazquez'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                GitHub
+              </a>
               <a
                 href='https://github.com/waldovazquez'
                 rel='noopener noreferrer'

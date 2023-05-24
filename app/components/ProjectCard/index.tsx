@@ -21,7 +21,7 @@ const ProjectCard = ({
           <Image
             alt={name}
             className='w-full object-cover rounded-3xl hover:shadow-lg hover:shadow-primary hover:opacity-50 hidden md:flex md:h-full'
-            priority
+            loading='lazy'
             src={image}
           />
         </a>
@@ -48,9 +48,17 @@ const ProjectCard = ({
         </ul>
         <div className='flex justify-center xl:justify-start'>
           <a
+            className='sr-only'
+            href={github}
+            rel='noopener noreferrer'
+            target='_blank'
+          >
+            GitHub
+          </a>
+          <a
             aria-label='Ir al repositorio de GitHub'
             className='w-fit flex items-center bg-light text-dark p-2 rounded-lg border-2 border-solid font-medium border-transparent gap-2 hover:bg-dark hover:text-light hover:border-primary'
-            href={`${github}`}
+            href={github}
             rel='noopener noreferrer'
             target='_blank'
           >
