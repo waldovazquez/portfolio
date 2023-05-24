@@ -18,7 +18,7 @@ const Home = () => {
           <a
             aria-label='Descargar currículum'
             className='flex items-center justify-center bg-light text-dark p-3 rounded-xl text-base font-semibold border-2 border-solid border-transparent gap-2 hover:bg-dark hover:text-light hover:border-primary md:text-lg'
-            download='Curriculum-Waldo-Vazquez.pdf'
+            download='CV-Waldo-Vazquez.pdf'
             href='/curriculum.pdf'
             rel='noopener noreferrer'
             target='_blank'
