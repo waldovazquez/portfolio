@@ -1,4 +1,4 @@
-import { BiLinkExternal } from 'react-icons/bi'
+import { BiDownload } from 'react-icons/bi'
 
 const Home = () => {
   return (
@@ -18,13 +18,13 @@ const Home = () => {
           <a
             aria-label='Descargar currículum'
             className='flex items-center justify-center bg-light text-dark p-3 rounded-xl text-base font-semibold border-2 border-solid border-transparent gap-2 hover:bg-dark hover:text-light hover:border-primary md:text-lg'
-            download='CV-Waldo-Vazquez.pdf'
-            href='/curriculum.pdf'
+            download
+            href='/CV-Waldo-Vazquez.pdf'
             rel='noopener noreferrer'
             target='_blank'
           >
             Currículum
-            <BiLinkExternal size={24} />
+            <BiDownload size={24} />
           </a>
           <a
             aria-label='Enviar correo electrónico'
